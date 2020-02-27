@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding:0;
+}
+@media screen and (max-width: 800px) {
+
+    .container{
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "e"
+        "b"
+        "s"
+        "k";
+    }
+}
+
+.container {
+    padding-top:1%;
+    height: 100%;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "b b b b b b s s s s s s"
+        "b b b b b b s s s s s s"
+        "k k k k k k e e e e e e"
+        "k k k k k k e e e e e e";
+}
+
+/*header section*/
+header{
+    padding-left: 150px;
+    grid-area: b;
+}
+
+h1{
+    padding-top: 40px;
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
+}
+
+.contact {
+    font-size: 100%;
+    font-weight:300;
+    padding-top: 25px;
+    color: white;
+}
+
+.location {
+    font-size: 100%;
+    font-weight:300;
+    padding-top: 15px;
+    color: white;
+}
+
+.me{
+    padding-top:50px;
+}
+
+.boxed {
+    text-align: center;
+    align-content: center;
+    position: absolute;
+   width: 35%;
+   height: 65%;
+   background:#f5bc53;
+  }
+/*summary*/
+.line1{
+    padding-top: 75px;
+    grid-area: s;
+    padding-left: 50px;
+    width:600px;
+    height: 5px;
+}
+
+.summary{
+    padding-top: 85px;
+    padding-right: 175px;
+    padding-left:50px;
+    color: grey;
+    text-align: left;
+    font-weight: 200;
+    font-size: 80%;
+    grid-area: s;
+}
+
+/*experience*/
+.line2{
+    padding-bottom: 1%;
+    padding-right: 2%;
+    width: 450px;
+    height:3px;
+    grid-area: e;
+}
+
+li{
+    font-weight: 200;
+    padding:10px;
+    padding-right:28%;
+    font-size: 100%;
+    grid-area: e, ;
+}
+  
+body{
+    font-size: 1.5em;
+    font-family: 'Noto Sans JP';
+}
+/*bullets*/
+ul{
+    list-style: disc;
+}
+
+h2{
+    color:#f5bc53;
+    font-weight: 700;
+    font-size:110%;
+    
+}
+
+h3{
+    padding-top:45px;
+    font-size: 1.2em;
+}
+
+.experience{
+    padding-left:50px;
+    padding-top: 8%;
+    color: grey;
+    text-align: left;
+    font-weight: 200;
+    font-size: 80%;
+    grid-area: e;
+}
+
+.camp{
+    padding-top: 2%;
+}
+
+.wt{
+    padding-top:2%;
+}
+
+/*skills*/
+.line3{
+    padding-bottom: 1%;
+    padding-right: 2%;
+    width: 500px;
+    height:3px;
+    grid-area: e;
+}
+.skills {
+    padding-left: 150px;
+    padding-top: 500px;
+    color: grey;
+    text-align: left;
+    font-weight: 200;
+    font-size: 80%;
+    grid-area: k;
+}
+
+
+
+
+
