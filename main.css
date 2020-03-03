@@ -13,7 +13,9 @@
         "e"
         "b"
         "s"
-        "k";
+        "k"
+        "c"
+        "f";
     }
 }
 
@@ -25,14 +27,15 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto;
     grid-template-areas: 
-        "b b b b b b s s s s s s"
-        "b b b b b b s s s s s s"
-        "k k k k k k e e e e e e"
-        "k k k k k k e e e e e e";
+        "b b b b b b k k k k k k"
+        "b b b b b b d d d d d d"
+        "s s s s s s e e e e e e"
+        "s s s s s s c c c c c c";
 }
 
 /*header section*/
 header{
+    padding-top:5%;
     padding-left: 150px;
     grid-area: b;
 }
@@ -72,17 +75,17 @@ h1{
   }
 /*summary*/
 .line1{
-    padding-top: 75px;
     grid-area: s;
-    padding-left: 50px;
-    width:600px;
+    padding-top: 10%;
+    padding-left: 18%;
+    width:72%;
     height: 5px;
 }
 
 .summary{
-    padding-top: 85px;
-    padding-right: 175px;
-    padding-left:50px;
+    padding-top: 13%;
+    padding-right: 10%;
+    padding-left:18%;
     color: grey;
     text-align: left;
     font-weight: 200;
@@ -93,8 +96,8 @@ h1{
 /*experience*/
 .line2{
     padding-bottom: 1%;
-    padding-right: 2%;
-    width: 450px;
+    padding-left: 2%;
+    width: 60%;
     height:3px;
     grid-area: e;
 }
@@ -130,7 +133,6 @@ h3{
 
 .experience{
     padding-left:50px;
-    padding-top: 8%;
     color: grey;
     text-align: left;
     font-weight: 200;
@@ -149,14 +151,14 @@ h3{
 /*skills*/
 .line3{
     padding-bottom: 1%;
-    padding-right: 2%;
-    width: 500px;
+    padding-left: 2%;
+    width: 64%;
     height:3px;
     grid-area: e;
 }
 .skills {
-    padding-left: 150px;
-    padding-top: 500px;
+    padding-left:50px;
+    padding-top: 5%;
     color: grey;
     text-align: left;
     font-weight: 200;
@@ -164,7 +166,48 @@ h3{
     grid-area: k;
 }
 
+.certifications{
+    padding-left:50px;
+    padding-bottom:10%;
+    color: grey;
+    text-align: left;
+    font-weight: 200;
+    font-size: 80%;
+    grid-area: c;
+}
 
+.line5{
+    padding-bottom: 1%;
+    padding-left: 2%;
+    width:55%;
+    height:3px;
+}
 
+/*education*/
+.education{
+    padding-left: 50px;
+    font-size: 80%;
+    grid-area: d;
+}
+.umd{
+    padding-top: 3%;
+    color: grey;
+    text-align: left;
+    font-weight: 800;
+    font-size: 100%;
+}
 
+.line4{
+    padding-bottom: 1%;
+    padding-left: 2%;
+    width: 59%;
+    height:3px;
+}
 
+.dart{
+    padding-top: 3%;
+    color: grey;
+    text-align: left;
+    font-weight: 200;
+    font-size: 100%;
+}
