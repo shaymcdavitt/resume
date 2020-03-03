@@ -132,6 +132,7 @@ h3{
 }
 
 .experience{
+    padding-bottom: 3%;
     padding-left:50px;
     color: grey;
     text-align: left;
@@ -157,6 +158,7 @@ h3{
     grid-area: e;
 }
 .skills {
+    padding-bottom:3%;
     padding-left:50px;
     padding-top: 5%;
     color: grey;
@@ -185,6 +187,7 @@ h3{
 
 /*education*/
 .education{
+    padding-bottom:3%;
     padding-left: 50px;
     font-size: 80%;
     grid-area: d;
