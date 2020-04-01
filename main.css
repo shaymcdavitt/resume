@@ -55,7 +55,7 @@ h1{
     align-content: center;
     position: absolute;
    width: 35%;
-   height: 65%;
+   height: 600px;
    background:#f5bc53;
   }
 /*summary*/
@@ -229,7 +229,7 @@ h3{
     align-content: center;
     position: absolute;
     width: 95%;
-    height: 75%;
+    height: 650px;
     background:#f5bc53;
     }
 }
