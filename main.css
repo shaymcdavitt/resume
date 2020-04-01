@@ -211,14 +211,14 @@ h3{
         grid-template-areas:
         "b"
         "s"
+        "d"
         "e"
         "k"
         "c"
-        "f"
-        "d";
+        "f";
     }
     .summary{
-        padding-top: 600px;
+        padding-top: 700px;
         padding-left: 50px;
     }
     header{
@@ -229,7 +229,7 @@ h3{
     align-content: center;
     position: absolute;
     width: 95%;
-    height: 65%;
+    height: 75%;
     background:#f5bc53;
     }
 }
