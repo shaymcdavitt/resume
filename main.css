@@ -70,7 +70,7 @@ h1{
     padding-top:20px;
     padding-right: 10%;
     padding-left:18%;
-    color: grey;
+    color: #777a7a ;
     text-align: left;
     font-weight: 200;
     font-size: 80%;
@@ -118,7 +118,7 @@ h3{
 .experience{
     padding-bottom: 3%;
     padding-left:50px;
-    color: grey;
+    color: #777a7a;
     text-align: left;
     font-weight: 200;
     font-size: 80%;
@@ -145,7 +145,7 @@ h3{
     padding-bottom:3%;
     padding-left:50px;
     padding-top: 5%;
-    color: grey;
+    color: #777a7a;
     text-align: left;
     font-weight: 200;
     font-size: 80%;
@@ -155,7 +155,7 @@ h3{
 .certifications{
     padding-left:50px;
     padding-bottom:10%;
-    color: grey;
+    color: #777a7a;
     text-align: left;
     font-weight: 200;
     font-size: 80%;
@@ -178,7 +178,7 @@ h3{
 }
 .umd{
     padding-top: 3%;
-    color: grey;
+    color: #777a7a;
     text-align: left;
     font-weight: 800;
     font-size: 100%;
@@ -193,7 +193,7 @@ h3{
 
 .dart{
     padding-top: 3%;
-    color: grey;
+    color: #777a7a;
     text-align: left;
     font-weight: 200;
     font-size: 100%;
