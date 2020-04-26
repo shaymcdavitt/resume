@@ -145,7 +145,7 @@ h1{
     position: absolute;
    width: 35%;
    height: 600px;
-   background:#f5bc53;
+   background:rgb(250, 208, 141);
   }
 /*summary*/
 .line1{
@@ -416,7 +416,7 @@ h3{
         position: absolute;
         width: 95%;
         height: 750px;
-        background:#f5bc53;
+        background:rgb(250, 208, 141);
     }
 
     .line1{
@@ -430,7 +430,7 @@ h3{
 
     .education{
         margin-left: 20px;
-        margin-top:70px;
+        margin-top:130px;
         font-size: 80%;
         grid-column: 1 / 5;
         grid-row: 6 / 8;
