@@ -239,7 +239,7 @@ h1{
 .experience{
     grid-column: 3 / 5;
     grid-row: 5 / 8;
-    margin-top: 40%;
+    margin-top: 15%;
     margin-bottom: 3%;
     margin-left:50px;
     color: #777a7a;
@@ -437,6 +437,7 @@ h3{
     }
 
     .experience{
+        margin-top:100px;
         margin-left:20px;
         grid-column: 1 / 5;
         grid-row: 9 / 12;
